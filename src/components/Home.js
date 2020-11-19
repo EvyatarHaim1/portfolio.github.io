@@ -1,10 +1,11 @@
 import React from 'react';
 import MyImage from './MyImage';
-import Info from './Info'
-import styled from 'styled-components'
+import Info from './Info';
+import styled from 'styled-components';
+
 function Home() {
     return (
-        <Div>
+        <Div id="Home">
             <MyImage />
             <Info />
         </Div>

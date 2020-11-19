@@ -11,11 +11,12 @@ import todoList from '../images/todoList.png';
 
 function Home() {
     return (
-        <Div>
+        <Div id="Projects">
+            <h1>RECENT PROJECTS</h1>
             <Home_section>
                  <Card 
                       src={airbnb}
-                      title="Airbnb-React"
+                      title="Airbnb"
                       github="https://github.com/EvyatarHaim1/Airbnb-React"
                       appUrl=" https://airbnb-react-evyatar.web.app/"
                 />
@@ -31,7 +32,7 @@ function Home() {
                       src={netflix}
                       title="Netflix"
                       github="https://github.com/EvyatarHaim1/Netflix-React"
-                      appUrl=" https://evyatar-1ea31.web.app/"
+                      appUrl="https://netflix-evyatar.web.app/"
                 />
 
             </Home_section>
@@ -56,7 +57,7 @@ function Home() {
                       src={FB_Messenger}
                       title="Facebok Messenger"
                       github="https://github.com/EvyatarHaim1/Facebook-Messenger-React"
-                      appUrl="https://netflix-evyatar.web.app/"
+                      appUrl="https://facebook-messenger-evyatar.web.app/"
                 />
                
                </Home_section>
@@ -71,17 +72,17 @@ function Home() {
                 />
 
                 <Card 
-                      src={''}
-                      title="Soon"
-                      github="https://github.com/EvyatarHaim1/Instagram-React"
-                      appUrl=" https://instagram-evyatar.web.app/"
+                      src='https://miro.medium.com/max/2484/0*zLhfw8c-1JwTGHcm.png'
+                      title="COVID-19 TRACKER - soon..."
+                      github=""
+                      appUrl=""
                 />
 
                 <Card 
-                      src={''}
-                      title="Soon"
-                      github="https://github.com/EvyatarHaim1/Facebook-Messenger-React"
-                      appUrl="https://netflix-evyatar.web.app/"
+                      src='https://miro.medium.com/max/2484/0*zLhfw8c-1JwTGHcm.png'
+                      title="Memory-Game - soon..."
+                      github=""
+                      appUrl=""
                 />
                </Home_section>
         </Div>
@@ -91,16 +92,14 @@ function Home() {
 export default Home;
 
 const Div = styled.div`
-width:100%100vw;
-margin-left: auto;
+width:100%;
 justify-content: center;
 align-items: center;
 height: 100%;
 background-color: #F8EDE9;
-
-
+h1{ padding-top: 100px;}
 `
 const Home_section = styled.div`
 display: flex;
-padding: 100px;
+padding: 30px;
 `

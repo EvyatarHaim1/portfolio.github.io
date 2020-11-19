@@ -29,7 +29,7 @@ function Info() {
                     <FacebookIcon className="facebook"/>
                     </a> 
                     
-                    
+                     
                   </SocialMedia>
         </Div>
     )
