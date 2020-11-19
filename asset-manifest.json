@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.75f17b5a.chunk.css",
-    "main.js": "/portfolio.github.io/static/js/main.9c8472b7.chunk.js",
-    "main.js.map": "/portfolio.github.io/static/js/main.9c8472b7.chunk.js.map",
-    "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.acd3e843.js",
-    "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.acd3e843.js.map",
-    "static/js/2.83d74a7a.chunk.js": "/portfolio.github.io/static/js/2.83d74a7a.chunk.js",
-    "static/js/2.83d74a7a.chunk.js.map": "/portfolio.github.io/static/js/2.83d74a7a.chunk.js.map",
-    "static/js/3.f1d11664.chunk.js": "/portfolio.github.io/static/js/3.f1d11664.chunk.js",
-    "static/js/3.f1d11664.chunk.js.map": "/portfolio.github.io/static/js/3.f1d11664.chunk.js.map",
+    "main.js": "/portfolio.github.io/static/js/main.afeb13a4.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.afeb13a4.chunk.js.map",
+    "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.06d3c4a1.js",
+    "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.06d3c4a1.js.map",
+    "static/js/2.fd07832d.chunk.js": "/portfolio.github.io/static/js/2.fd07832d.chunk.js",
+    "static/js/2.fd07832d.chunk.js.map": "/portfolio.github.io/static/js/2.fd07832d.chunk.js.map",
+    "static/js/3.2de072b4.chunk.js": "/portfolio.github.io/static/js/3.2de072b4.chunk.js",
+    "static/js/3.2de072b4.chunk.js.map": "/portfolio.github.io/static/js/3.2de072b4.chunk.js.map",
     "index.html": "/portfolio.github.io/index.html",
     "static/css/main.75f17b5a.chunk.css.map": "/portfolio.github.io/static/css/main.75f17b5a.chunk.css.map",
-    "static/js/2.83d74a7a.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.83d74a7a.chunk.js.LICENSE.txt",
+    "static/js/2.fd07832d.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.fd07832d.chunk.js.LICENSE.txt",
     "static/media/FB_Messenger.bb5ca06f.png": "/portfolio.github.io/static/media/FB_Messenger.bb5ca06f.png",
     "static/media/airbnb.f25e8a93.png": "/portfolio.github.io/static/media/airbnb.f25e8a93.png",
     "static/media/amazon.83b4dc1a.png": "/portfolio.github.io/static/media/amazon.83b4dc1a.png",
@@ -21,9 +21,9 @@
     "static/media/todoList.4d2d2f18.png": "/portfolio.github.io/static/media/todoList.4d2d2f18.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.acd3e843.js",
-    "static/js/2.83d74a7a.chunk.js",
+    "static/js/runtime-main.06d3c4a1.js",
+    "static/js/2.fd07832d.chunk.js",
     "static/css/main.75f17b5a.chunk.css",
-    "static/js/main.9c8472b7.chunk.js"
+    "static/js/main.afeb13a4.chunk.js"
   ]
 }
