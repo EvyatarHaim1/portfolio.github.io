@@ -22,7 +22,7 @@ function Contact() {
 export default Contact;
 
 const Div = styled.div`
-width: 100%;
+width: 100vw;
 height: 300px;
 background-color: #F8EDE9;
 .phone , .email {
