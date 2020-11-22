@@ -72,6 +72,23 @@ function Home() {
                 />
 
                 <Card 
+                      src='https://miro.medium.com/max/2484/0*zLhfw8c-1JwTGHcm.png'
+                      title="COVID-19 TRACKER - soon..."
+                      github=""
+                      appUrl=""
+                />
+
+                <Card 
+                      src='https://miro.medium.com/max/2484/0*zLhfw8c-1JwTGHcm.png'
+                      title="Memory-Game - soon..."
+                      github=""
+                      appUrl=""
+                />
+               </Home_section>
+
+               <Home_section>
+
+               <Card 
                       src='https://github.com/EvyatarHaim1/Guessing_Languages_Words/raw/master/Assets/view.png?raw=true'
                       title="Guessing Languages Words - Unity 2D"
                       github="https://github.com/EvyatarHaim1/Guessing_Languages_Words"
@@ -84,27 +101,10 @@ function Home() {
                       github="https://github.com/EvyatarHaim1/MyBurger"
                       appUrl="https://react-my-burger-40e0c.web.app/"
                 />
-               </Home_section>
-
-               <Home_section>
-              
-                <Card 
-                      src='https://miro.medium.com/max/2484/0*zLhfw8c-1JwTGHcm.png'
-                      title="COVID-19 TRACKER - soon..."
-                      github="https://github.com/EvyatarHaim1/COVID-19-Tracker-React"
-                      appUrl=""
-                />
 
                 <Card 
                       src='https://miro.medium.com/max/2484/0*zLhfw8c-1JwTGHcm.png'
                       title="Tik Tok - soon..."
-                      github=""
-                      appUrl=""
-                />
-
-                <Card 
-                      src='https://miro.medium.com/max/2484/0*zLhfw8c-1JwTGHcm.png'
-                      title="Memory-Game - soon..."
                       github=""
                       appUrl=""
                 />
