@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.8d448519.chunk.css",
-    "main.js": "/portfolio.github.io/static/js/main.cfc739d6.chunk.js",
-    "main.js.map": "/portfolio.github.io/static/js/main.cfc739d6.chunk.js.map",
+    "main.js": "/portfolio.github.io/static/js/main.4ae8bebf.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.4ae8bebf.chunk.js.map",
     "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.b7197a74.js",
     "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.b7197a74.js.map",
     "static/js/2.32137cc6.chunk.js": "/portfolio.github.io/static/js/2.32137cc6.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.32137cc6.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.32137cc6.chunk.js.LICENSE.txt",
     "static/media/COVID-19.c6e62dad.png": "/portfolio.github.io/static/media/COVID-19.c6e62dad.png",
     "static/media/FB_Messenger.bb5ca06f.png": "/portfolio.github.io/static/media/FB_Messenger.bb5ca06f.png",
+    "static/media/Youtube.32f31c0a.png": "/portfolio.github.io/static/media/Youtube.32f31c0a.png",
     "static/media/airbnb.f25e8a93.png": "/portfolio.github.io/static/media/airbnb.f25e8a93.png",
     "static/media/amazon.83b4dc1a.png": "/portfolio.github.io/static/media/amazon.83b4dc1a.png",
     "static/media/instagram.c5c2499d.png": "/portfolio.github.io/static/media/instagram.c5c2499d.png",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.b7197a74.js",
     "static/js/2.32137cc6.chunk.js",
     "static/css/main.8d448519.chunk.css",
-    "static/js/main.cfc739d6.chunk.js"
+    "static/js/main.4ae8bebf.chunk.js"
   ]
 }
