@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio.github.io/static/css/main.8d448519.chunk.css",
-    "main.js": "/portfolio.github.io/static/js/main.2d2d46a7.chunk.js",
-    "main.js.map": "/portfolio.github.io/static/js/main.2d2d46a7.chunk.js.map",
-    "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.b7197a74.js",
-    "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.b7197a74.js.map",
-    "static/js/2.32137cc6.chunk.js": "/portfolio.github.io/static/js/2.32137cc6.chunk.js",
-    "static/js/2.32137cc6.chunk.js.map": "/portfolio.github.io/static/js/2.32137cc6.chunk.js.map",
-    "static/js/3.29b182f0.chunk.js": "/portfolio.github.io/static/js/3.29b182f0.chunk.js",
-    "static/js/3.29b182f0.chunk.js.map": "/portfolio.github.io/static/js/3.29b182f0.chunk.js.map",
+    "main.css": "/portfolio.github.io/static/css/main.f66fa493.chunk.css",
+    "main.js": "/portfolio.github.io/static/js/main.12ddd65e.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.12ddd65e.chunk.js.map",
+    "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.ba89ef37.js",
+    "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.ba89ef37.js.map",
+    "static/js/2.7c3b27a4.chunk.js": "/portfolio.github.io/static/js/2.7c3b27a4.chunk.js",
+    "static/js/2.7c3b27a4.chunk.js.map": "/portfolio.github.io/static/js/2.7c3b27a4.chunk.js.map",
+    "static/js/3.1878a087.chunk.js": "/portfolio.github.io/static/js/3.1878a087.chunk.js",
+    "static/js/3.1878a087.chunk.js.map": "/portfolio.github.io/static/js/3.1878a087.chunk.js.map",
     "index.html": "/portfolio.github.io/index.html",
-    "static/css/main.8d448519.chunk.css.map": "/portfolio.github.io/static/css/main.8d448519.chunk.css.map",
-    "static/js/2.32137cc6.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.32137cc6.chunk.js.LICENSE.txt",
+    "static/css/main.f66fa493.chunk.css.map": "/portfolio.github.io/static/css/main.f66fa493.chunk.css.map",
+    "static/js/2.7c3b27a4.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.7c3b27a4.chunk.js.LICENSE.txt",
     "static/media/COVID-19.c6e62dad.png": "/portfolio.github.io/static/media/COVID-19.c6e62dad.png",
     "static/media/FB_Messenger.bb5ca06f.png": "/portfolio.github.io/static/media/FB_Messenger.bb5ca06f.png",
     "static/media/Youtube.32f31c0a.png": "/portfolio.github.io/static/media/Youtube.32f31c0a.png",
@@ -24,9 +24,9 @@
     "static/media/todoList.4d2d2f18.png": "/portfolio.github.io/static/media/todoList.4d2d2f18.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7197a74.js",
-    "static/js/2.32137cc6.chunk.js",
-    "static/css/main.8d448519.chunk.css",
-    "static/js/main.2d2d46a7.chunk.js"
+    "static/js/runtime-main.ba89ef37.js",
+    "static/js/2.7c3b27a4.chunk.js",
+    "static/css/main.f66fa493.chunk.css",
+    "static/js/main.12ddd65e.chunk.js"
   ]
 }
