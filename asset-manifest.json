@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.5919c0ae.chunk.css",
-    "main.js": "/portfolio.github.io/static/js/main.f3c7cc44.chunk.js",
-    "main.js.map": "/portfolio.github.io/static/js/main.f3c7cc44.chunk.js.map",
+    "main.js": "/portfolio.github.io/static/js/main.6c7ffc71.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.6c7ffc71.chunk.js.map",
     "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.ba89ef37.js",
     "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.ba89ef37.js.map",
     "static/js/2.7c3b27a4.chunk.js": "/portfolio.github.io/static/js/2.7c3b27a4.chunk.js",
@@ -24,12 +24,13 @@
     "static/media/spotify.a6777433.png": "/portfolio.github.io/static/media/spotify.a6777433.png",
     "static/media/tinder.03e62448.png": "/portfolio.github.io/static/media/tinder.03e62448.png",
     "static/media/todoList.4d2d2f18.png": "/portfolio.github.io/static/media/todoList.4d2d2f18.png",
-    "static/media/twitter.2080f351.png": "/portfolio.github.io/static/media/twitter.2080f351.png"
+    "static/media/twitter.2080f351.png": "/portfolio.github.io/static/media/twitter.2080f351.png",
+    "static/media/whatsapp.79db69db.png": "/portfolio.github.io/static/media/whatsapp.79db69db.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ba89ef37.js",
     "static/js/2.7c3b27a4.chunk.js",
     "static/css/main.5919c0ae.chunk.css",
-    "static/js/main.f3c7cc44.chunk.js"
+    "static/js/main.6c7ffc71.chunk.js"
   ]
 }
