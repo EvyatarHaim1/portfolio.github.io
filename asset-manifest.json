@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.5919c0ae.chunk.css",
-    "main.js": "/portfolio.github.io/static/js/main.c14e757c.chunk.js",
-    "main.js.map": "/portfolio.github.io/static/js/main.c14e757c.chunk.js.map",
+    "main.js": "/portfolio.github.io/static/js/main.3c40ac53.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.3c40ac53.chunk.js.map",
     "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.ba89ef37.js",
     "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.ba89ef37.js.map",
     "static/js/2.7c3b27a4.chunk.js": "/portfolio.github.io/static/js/2.7c3b27a4.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/Basketball.2d315dea.png": "/portfolio.github.io/static/media/Basketball.2d315dea.png",
     "static/media/COVID-19.c6e62dad.png": "/portfolio.github.io/static/media/COVID-19.c6e62dad.png",
     "static/media/FB_Messenger.bb5ca06f.png": "/portfolio.github.io/static/media/FB_Messenger.bb5ca06f.png",
+    "static/media/Gmail.58526ebb.png": "/portfolio.github.io/static/media/Gmail.58526ebb.png",
     "static/media/Google.3f820d72.png": "/portfolio.github.io/static/media/Google.3f820d72.png",
     "static/media/RocketShip.28091e84.png": "/portfolio.github.io/static/media/RocketShip.28091e84.png",
     "static/media/Youtube.32f31c0a.png": "/portfolio.github.io/static/media/Youtube.32f31c0a.png",
@@ -37,6 +38,6 @@
     "static/js/runtime-main.ba89ef37.js",
     "static/js/2.7c3b27a4.chunk.js",
     "static/css/main.5919c0ae.chunk.css",
-    "static/js/main.c14e757c.chunk.js"
+    "static/js/main.3c40ac53.chunk.js"
   ]
 }
