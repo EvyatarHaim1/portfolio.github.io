@@ -8,43 +8,49 @@ import { Link } from 'react-router-dom';
 
 function Info() {
     return (
-        <Div>
-            <h1>Full Stack Web Developer</h1>
-                  <p>............................................</p>
-                  <h4>React | NodeJS| Express | MongoDB | MySQL | Firebase </h4>
-                  <SocialMedia>
-                  <a href="https://www.linkedin.com/in/evyatar-haim/" target="_blank"> 
-                  <LinkedInIcon className="linkedin"/>
-                  </a>
+        <Container>
+            <Div>
+                <h1 className="h1">Full Stack Web Developer</h1>
+                <p>............................................</p>
+                <h4>React | React-Native | NodeJS| Express | MongoDB | MySQL | Firebase </h4>
+                <SocialMedia>
+                    <a href="https://www.linkedin.com/in/evyatar-haim/" target="_blank">
+                        <LinkedInIcon className="linkedin" />
+                    </a>
 
-                  <a href="https://github.com/EvyatarHaim1?tab=repositories" target="_blank"> 
-                  <GitHubIcon className="github"/>
-                    </a> 
+                    <a href="https://github.com/EvyatarHaim1?tab=repositories" target="_blank">
+                        <GitHubIcon className="github" />
+                    </a>
 
-                    <a href="https://www.instagram.com/evyatarhaim1/" target="_blank"> 
-                    <InstagramIcon className="instagram"/>
-                    </a>    
-                    
-                    <a href="https://www.facebook.com/Evios" target="_blank"> 
-                    <FacebookIcon className="facebook"/>
-                    </a> 
-                    
-                     
-                  </SocialMedia>
-        </Div>
+                    <a href="https://www.instagram.com/evyatarhaim1/" target="_blank">
+                        <InstagramIcon className="instagram" />
+                    </a>
+
+                    <a href="https://www.facebook.com/Evios" target="_blank">
+                        <FacebookIcon className="facebook" />
+                    </a>
+
+
+                </SocialMedia>
+            </Div>
+        </Container>
     )
 }
 
 export default Info;
 
+const Container = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+`
+
 const Div = styled.div`
-position: absolute;
 display: flex;
 flex-direction: column;
 width: 60%;
 height: 300px;
 background-color: #A79344;
-margin-left: 300px;
 h1{
     margin-top: 20px;
     color: white;
@@ -105,4 +111,5 @@ transition: transform 100ms ease-in;
     }
     
 }
+
 `

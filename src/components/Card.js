@@ -5,8 +5,10 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import AppsIcon from '@material-ui/icons/Apps';
 
 function Card({ src, title, github ,appUrl }) {
+ 
     return (
         <Div>
+             <a href={appUrl} target="_blank">
             <img src={src}
                  alt="projectImg"
             />
@@ -21,6 +23,7 @@ function Card({ src, title, github ,appUrl }) {
                      </a>
                 </div>
             </div>
+            </a>
         </Div>
     )
 }

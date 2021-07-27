@@ -13,7 +13,7 @@ function Contact() {
             </Icons>
             <Details>
             <h2 className="number">050-9098806</h2>
-            <h2 className="address">Evyataros1@gmail.com</h2>
+            <h2 className="address">evyataros1@gmail.com</h2>
             </Details>
         </Div>
     )
@@ -24,7 +24,7 @@ export default Contact;
 const Div = styled.div`
 width: 100%;
 height: 300px;
-background-color: #F8EDE9;
+background-color: #E8E1DE;
 .phone , .email {
 color: #24292E;
 font-size: 60px;
@@ -39,17 +39,37 @@ h1{padding: 40px;}
 const Icons = styled.div`
 display: flex;
 justify-content: center;
-align-items: center;`
+align-items: center;
+@media(max-width: 400px){
+    display: flex;
+    flex-direction: column;
+    font-size: 0.5rem;
+}`
 
 const Details = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 20px;
+@media(max-width: 400px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.5rem;
+    .number{
+        margin-right: 60px;
+        margin-top: -20px;
+    }
+    .address{
+        margin-right: 150px;
+        margin-top: 5px;
+    }
+}
 .number{
     margin-left: 60px;
 }
 .address{
     margin-left: 150px;
 }
+
 `
