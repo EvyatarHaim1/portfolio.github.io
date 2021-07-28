@@ -37,16 +37,6 @@ export default function Filter() {
             </Row>
             <Row>
                 <Checkbox
-                    checked={reactNative}
-                    color="primary"
-                    onChange={() => handleChange('reactNative')}
-                    inputProps={{ 'aria-label': 'primary checkbox' }}
-                />
-                <h4>React-Native</h4>
-                <Img src={reactnative} alt="reactNative" />
-            </Row>
-            <Row>
-                <Checkbox
                     checked={unity}
                     color="primary"
                     onChange={() => handleChange('unity')}
@@ -63,7 +53,17 @@ export default function Filter() {
                     inputProps={{ 'aria-label': 'primary checkbox' }}
                 />
                 <h4>Wordpress</h4>
-                <Img src={Wordpress} alt="Wordpress" />
+                <Imgwordpress src={Wordpress} alt="Wordpress" />
+            </Row>
+            <Row>
+                <Checkbox
+                    checked={reactNative}
+                    color="primary"
+                    onChange={() => handleChange('reactNative')}
+                    inputProps={{ 'aria-label': 'primary checkbox' }}
+                />
+                <h4>React-Native</h4>
+                <Img src={reactnative} alt="reactNative" />
             </Row>
         </Div>
     )
@@ -80,11 +80,16 @@ const Img = styled.img`
   width:35%;
   object-fit:contain;
 `
+const Imgwordpress = styled.img`
+  width:20%;
+  margin-right:7%;
+  object-fit:contain;
+`
 const Row = styled.div`
 display: flex;
 flex-direction:row;
 align-items: center;
-width:12%;
+width:33%;
 justify-content:space-between;
 margin-left: auto;
 margin-right: auto;

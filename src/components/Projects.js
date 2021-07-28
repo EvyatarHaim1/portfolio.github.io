@@ -73,6 +73,7 @@ function Home() {
 
                   <Home_section>
                         <Card
+                              show={reactjs}
                               src={airbnb}
                               title="Airbnb"
                               github="https://github.com/EvyatarHaim1/Airbnb-React"
@@ -81,6 +82,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactjs}
                               src={amazon}
                               title="Amazon"
                               github="https://github.com/EvyatarHaim1/Amazon"
@@ -89,6 +91,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactjs}
                               src={netflix}
                               title="Netflix"
                               github="https://github.com/EvyatarHaim1/Netflix-React"
@@ -100,6 +103,7 @@ function Home() {
                   <Home_section>
 
                         <Card
+                              show={reactjs}
                               src={spotify}
                               title="Spotify"
                               github="https://github.com/EvyatarHaim1/Spotify-React"
@@ -108,6 +112,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactjs}
                               src={instagram}
                               title="Instagram-React"
                               github="https://github.com/EvyatarHaim1/Instagram-React"
@@ -116,6 +121,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactjs}
                               src={COVID19}
                               title="COVID-19 TRACKER"
                               github="https://github.com/EvyatarHaim1/COVID-19-Tracker-React"
@@ -129,6 +135,7 @@ function Home() {
                   <Home_section>
 
                         <Card
+                              show={reactjs}
                               src={Youtube}
                               title="Youtube"
                               github="https://github.com/EvyatarHaim1/Youtube-React"
@@ -137,6 +144,7 @@ function Home() {
                         />
 
                         <Card
+                              show={unity}
                               src='https://github.com/EvyatarHaim1/Guessing_Languages_Words/raw/master/Assets/view.png?raw=true'
                               title="Guessing Languages Words - Unity 2D"
                               github="https://github.com/EvyatarHaim1/Guessing_Languages_Words"
@@ -145,6 +153,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactjs}
                               src="https://github.com/EvyatarHaim1/MyBurger/raw/master/src/assets/images/view.png?raw=true"
                               title="My-Burger"
                               github="https://github.com/EvyatarHaim1/MyBurger"
@@ -157,6 +166,7 @@ function Home() {
                   <Home_section>
 
                         <Card
+                              show={reactjs}
                               src={FB_Messenger}
                               title="Facebook Messenger"
                               github="https://github.com/EvyatarHaim1/Facebook-Messenger-React"
@@ -165,6 +175,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactjs}
                               src={todoList}
                               title="Todo-List"
                               github="https://github.com/EvyatarHaim1/TODO-React-app"
@@ -173,6 +184,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactjs}
                               src={tinder}
                               title="Tinder"
                               github="https://github.com/EvyatarHaim1/Tinder-React"
@@ -184,6 +196,7 @@ function Home() {
                   <Home_section>
 
                         <Card
+                              show={reactjs}
                               src={Google}
                               title="Google"
                               github="https://github.com/EvyatarHaim1/Google-React"
@@ -192,6 +205,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactjs}
                               src={slack}
                               title="Slack"
                               github="https://github.com/EvyatarHaim1/Slack-React"
@@ -200,6 +214,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactjs}
                               src={twitter}
                               title="Twitter"
                               github="https://github.com/EvyatarHaim1/TWITTER-React"
@@ -212,6 +227,7 @@ function Home() {
                   <Home_section>
 
                         <Card
+                              show={reactjs}
                               src={whatsapp}
                               title="Whatsapp"
                               github="https://github.com/EvyatarHaim1/Whatsapp-React"
@@ -220,6 +236,7 @@ function Home() {
                         />
 
                         <Card
+                              show={unity}
                               src={RocketShip}
                               title="Rocket-Ship - 3D Unity Game"
                               github="https://github.com/EvyatarHaim1/Rocket-Ship"
@@ -228,6 +245,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactjs}
                               src={Linkedin}
                               title="Linkedin"
                               github="https://github.com/EvyatarHaim1/Linkedin-React"
@@ -240,6 +258,7 @@ function Home() {
                   <Home_section>
 
                         <Card
+                              show={unity}
                               src={ArgonAssault}
                               title="Argon-Assault"
                               github="https://github.com/EvyatarHaim1/Argon-Assault"
@@ -248,6 +267,7 @@ function Home() {
                         />
 
                         <Card
+                              show={unity}
                               src={Basketball}
                               title=" Basketball - 3D Unity Game"
                               github="https://github.com/EvyatarHaim1/Basketball-Game-Unity-3D"
@@ -256,6 +276,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactjs}
                               src={snapchat}
                               title="Snapchat"
                               github="https://github.com/EvyatarHaim1/Snapchat-React"
@@ -268,6 +289,7 @@ function Home() {
                   <Home_section>
 
                         <Card
+                              show={reactjs}
                               src={Gmail}
                               title="Gmail"
                               github="https://github.com/EvyatarHaim1/Gmail-React"
@@ -276,6 +298,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactNative}
                               src={signal}
                               title=" Signal-React-Native"
                               github="https://github.com/EvyatarHaim1/SIGNAL-React-Native"
@@ -284,6 +307,7 @@ function Home() {
                         />
 
                         <Card
+                              show={reactNative}
                               src={weatherApp}
                               title="Weather App- React-Native"
                               github="https://github.com/EvyatarHaim1/Weather-App-React-Native-Expo-"

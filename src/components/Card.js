@@ -9,7 +9,7 @@ function Card({ src, title, github, appUrl, show }) {
     const darkmode = useSelector((state) => state.setting.darkmode);
 
     return (
-        <Div style={{ display: show }}>
+        <Div style={{ display: show ? 'block' : 'none' }}>
             <a href={appUrl} target="_blank">
                 <img src={src}
                     alt="projectImg"
