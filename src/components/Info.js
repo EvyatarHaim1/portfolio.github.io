@@ -12,9 +12,15 @@ function Info() {
             <Div>
                 <h1 className="h1">Full Stack Web Developer</h1>
                 <P1>............................................</P1>
-                {/* <P2>..............................</P2> */}
-                {/* <P2>..................</P2> */}
                 <h4>React | React-Native | NodeJS| Express | MongoDB | MySQL | Firebase </h4>
+                <H4Mobile>
+                    <p>
+                        React | React-Native | NodeJS|
+                    </p>
+                    <p>
+                        Express | MongoDB | MySQL | Firebase
+                    </p>
+                </H4Mobile>
                 <SocialMedia>
                     <a href="https://www.linkedin.com/in/evyatar-haim/" target="_blank">
                         <LinkedInIcon className="linkedin" />
@@ -45,6 +51,9 @@ const Container = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
+@media (max-width:800px){
+    margin-top:20%;
+}
 `
 const Div = styled.div`
 display: flex;
@@ -73,10 +82,11 @@ h1{
         font-size:20px;
     }
     @media (max-width:480px){
-        font-size:15px;
-    margin-top: 20%;
-
+    font-size:15px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     }
+    
 }
 h4{
     color: white;
@@ -90,6 +100,9 @@ h4{
     }
     @media (max-width:650px){
         font-size:10px;
+    }
+    @media (max-width:481px){
+        display: none;
     }
 }
 `
@@ -180,20 +193,16 @@ const P1 = styled.p`
         display:none;
     }`
 
-// const P2 = styled.p`
-// color: white;
-// font-size: 40px;
-// @media( min-width:899px) {
-//     display: none;
-// }
-// @media (max-width:400px){
-//     display: block;
-// }
-// `
-// const P3 = styled.p`
-// color: white;
-// font-size: 40px;
-// @media( min-width:600px) {
-//     display: none;
-// }
-// `
+const H4Mobile = styled.div`
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    color: white;
+    margin-bottom:10%;
+    @media (min-width:481px){
+        display:none
+    }
+    @media (max-width:321px){
+        font-size: 7px;
+    }
+    `

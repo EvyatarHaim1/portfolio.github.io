@@ -4,25 +4,25 @@ import { Button } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import AppsIcon from '@material-ui/icons/Apps';
 
-function Card({ src, title, github ,appUrl }) {
- 
+function Card({ src, title, github, appUrl }) {
+
     return (
         <Div>
-             <a href={appUrl} target="_blank">
-            <img src={src}
-                 alt="projectImg"
-            />
-            <div className="card_info">
-                <h2>{title}</h2>
-                <div className="links">
-                     <a href={github} target="_blank">
-                         <GitHubIcon className="github"/>
-                     </a>
-                     <a href={appUrl} target="_blank">
-                         <AppsIcon className="appUrl"/>
-                     </a>
+            <a href={appUrl} target="_blank">
+                <img src={src}
+                    alt="projectImg"
+                />
+                <div className="card_info">
+                    <h2>{title}</h2>
+                    <div className="links">
+                        <a href={github} target="_blank">
+                            <GitHubIcon className="github" />
+                        </a>
+                        <a href={appUrl} target="_blank">
+                            <AppsIcon className="appUrl" />
+                        </a>
+                    </div>
                 </div>
-            </div>
             </a>
         </Div>
     )
@@ -61,6 +61,12 @@ img {
     h2{
         font-size: 18px;
         font-weight: 600;
+        @media (max-width:481px){
+        font-size: 15px;
+        }
+        @media (max-width:350px){
+        font-size: 12px;
+        }
     }
     h4{
         font-size: 14px;
