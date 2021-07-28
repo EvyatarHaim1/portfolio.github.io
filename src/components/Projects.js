@@ -27,16 +27,23 @@ import wordpress1 from '../images/wordpress1.png';
 import wordpressEmpty from '../images/wordpressEmptyproject.jpg';
 import { useSelector } from 'react-redux';
 import indigo from '@material-ui/core/colors/indigo';
+import Filter from './Filter';
 
 function Home() {
 
       const darkmode = useSelector((state) => state.setting.darkmode);
+      const reactjs = useSelector((state) => state.setting.reactjs);
+      const reactNative = useSelector((state) => state.setting.reactNative);
+      const unity = useSelector((state) => state.setting.unity);
+      const wordpress = useSelector((state) => state.setting.wordpress);
 
       return (
             <Div id="Projects" style={{ backgroundColor: darkmode ? '#424242' : '#E8E1DE' }}>
                   <h1 style={{ color: darkmode ? 'white' : 'black' }}>RECENT PROJECTS</h1>
+                  <Filter />
                   <Home_section>
                         <Card
+                              show={wordpress}
                               src={wordpress1}
                               title="Wordpress Ecommerce shop"
                               //     github="https://github.com/EvyatarHaim1/Airbnb-React"
@@ -45,6 +52,7 @@ function Home() {
                         />
 
                         <Card
+                              show={wordpress}
                               src={wordpressEmpty}
                               title="Wordpress project - soon"
                               //     github="https://github.com/EvyatarHaim1/Amazon"
@@ -53,6 +61,7 @@ function Home() {
                         />
 
                         <Card
+                              show={wordpress}
                               src={wordpressEmpty}
                               title="Wordpress project - soon"
                               //     github="https://github.com/EvyatarHaim1/Amazon"

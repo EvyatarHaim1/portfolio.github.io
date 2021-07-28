@@ -4,12 +4,12 @@ import styled from 'styled-components';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import AppsIcon from '@material-ui/icons/Apps';
 
-function Card({ src, title, github, appUrl }) {
+function Card({ src, title, github, appUrl, show }) {
 
     const darkmode = useSelector((state) => state.setting.darkmode);
 
     return (
-        <Div>
+        <Div style={{ display: show }}>
             <a href={appUrl} target="_blank">
                 <img src={src}
                     alt="projectImg"
