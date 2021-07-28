@@ -290,7 +290,11 @@ justify-content: center;
 align-items: center;
 height: 100%;
 background-color: #E8E1DE;
-h1{ padding-top: 100px;}
+h1{ padding-top: 100px;
+@media (max-width:300px){
+      font-size:10px;
+}
+}
 `
 const Home_section = styled.div`
 display: flex;

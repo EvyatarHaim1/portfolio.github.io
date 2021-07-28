@@ -28,6 +28,10 @@ justify-content: center;
   object-fit: contain;
   height: 250px;
   width: 250px;
+  @media(max-width: 420px){
+    height: 180px;
+  width: 180px;
+  }
   @media(max-width: 250px){
     height: 120px;
   width: 120px;

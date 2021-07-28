@@ -11,7 +11,9 @@ function Info() {
         <Container>
             <Div>
                 <h1 className="h1">Full Stack Web Developer</h1>
-                <p>............................................</p>
+                <P1>............................................</P1>
+                {/* <P2>..............................</P2> */}
+                {/* <P2>..................</P2> */}
                 <h4>React | React-Native | NodeJS| Express | MongoDB | MySQL | Firebase </h4>
                 <SocialMedia>
                     <a href="https://www.linkedin.com/in/evyatar-haim/" target="_blank">
@@ -44,33 +46,60 @@ display: flex;
 justify-content: center;
 align-items: center;
 `
-
 const Div = styled.div`
 display: flex;
 flex-direction: column;
 width: 60%;
 height: 300px;
 background-color: #A79344;
+@media (max-width:900px){
+width: 60%;
+height: 200px;
+}
 h1{
-    margin-top: 20px;
+    margin-top: 3%;
+    margin-bottom: 2%;
     color: white;
     font-size:50px;
-    margin-bottom: -20px;
-}
-p{
-    color: white;
-    font-size: 40px;
+    @media (max-width:1100px){
+        font-size:40px;
+        margin-top:5%;
+    }
+    @media (max-width:900px){
+        font-size:30px;
+    }
+    @media (max-width:680px){
+    margin-top: 10%;
+        font-size:20px;
+    }
+    @media (max-width:480px){
+        font-size:15px;
+    margin-top: 20%;
+
+    }
 }
 h4{
     color: white;
     margin-top: 10px;
     margin-bottom: 20px;
+    @media (max-width:1100px){
+        font-size:15px;
+    }
+    @media (max-width:900px){
+        font-size:12px;
+    }
+    @media (max-width:650px){
+        font-size:10px;
+    }
 }
 `
 const SocialMedia = styled.div`
 display:flex;
-justify-content: center;
-transition: transform 100ms ease-in;    
+justify-content: space-around;
+transition: transform 100ms ease-in;   
+margin-right: auto;
+margin-left: auto;
+width: 60%;
 .linkedin{
     color: #24292E;
     font-size: 50px;
@@ -79,37 +108,92 @@ transition: transform 100ms ease-in;
         transform: scale(1.15);
         cursor:pointer;
     }
+    @media (max-width:450px){
+    font-size: 40px;
+    }
+    @media (max-width:375px){
+    font-size: 30px;
+    }
+    @media (max-width:305px){
+    font-size: 20px;
+    }
 }
 .github{
     color: #24292E;
     font-size: 50px;
-    margin-left: 15px;
     :hover{
         color: #504846;
         transform: scale(1.15); 
         cursor:pointer;
     }
+    @media (max-width:450px){
+    font-size: 40px;
+    }
+    @media (max-width:375px){
+    font-size: 30px;
+    }
+    @media (max-width:305px){
+    font-size: 20px;
+    }
 }
 .instagram {
     color: #24292E;
      font-size: 50px;
-     margin-left: 15px;
      :hover{
         color: #504846;
         transform: scale(1.15);  
         cursor:pointer; 
      }
+     @media (max-width:450px){
+    font-size: 40px;
+    }
+    @media (max-width:375px){
+    font-size: 30px;
+    }
+    @media (max-width:305px){
+    font-size: 20px;
+    }
 }
 .facebook{
     color: #24292E;
     font-size: 50px;
-    margin-left: 15px;
     :hover{
         color: #504846;
         transform: scale(1.15);
         cursor:pointer;
     }
-    
+    @media (max-width:450px){
+    font-size: 40px;
+    }
+    @media (max-width:375px){
+    font-size: 30px;
+    }
+    @media (max-width:305px){
+    font-size: 20px;
+    }
 }
-
 `
+const P1 = styled.p`
+    color: white;
+    font-size: 40px;
+    @media (max-width:900px){
+        display:none;
+    }`
+
+// const P2 = styled.p`
+// color: white;
+// font-size: 40px;
+// @media( min-width:899px) {
+//     display: none;
+// }
+// @media (max-width:400px){
+//     display: block;
+// }
+// `
+// const P3 = styled.p`
+// color: white;
+// font-size: 40px;
+// @media( min-width:600px) {
+//     display: none;
+// }
+// `

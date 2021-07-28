@@ -8,12 +8,12 @@ function Contact() {
         <Div id="Contact">
             <h1>Contact</h1>
             <Icons>
-            <SettingsCellIcon className="phone" />
-            <MailOutlineIcon className="email"/>
+                <SettingsCellIcon className="phone" />
+                <MailOutlineIcon className="email" />
             </Icons>
             <Details>
-            <h2 className="number">050-9098806</h2>
-            <h2 className="address">evyataros1@gmail.com</h2>
+                <h2 className="number">050-9098806</h2>
+                <h2 className="address">evyataros1@gmail.com</h2>
             </Details>
         </Div>
     )
@@ -22,7 +22,7 @@ function Contact() {
 export default Contact;
 
 const Div = styled.div`
-width: 100%;
+max-width: 100%;
 height: 300px;
 background-color: #E8E1DE;
 .phone , .email {
@@ -34,13 +34,17 @@ margin-right: 150px;
     color: #504846;
   }
 }
-h1{padding: 40px;}
+h1{padding: 40px;
+@media (max-width:320px){
+    font-size:20px;
+}
+}
 `
 const Icons = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-@media(max-width: 400px){
+@media(max-width: 600px){
     display: flex;
     flex-direction: column;
     font-size: 0.5rem;
@@ -50,10 +54,11 @@ const Details = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 20px;
-@media(max-width: 400px){
+margin-top: 2%;
+@media(max-width: 600px){
     display: flex;
     flex-direction: column;
+    margin-top:10%;
     align-items: center;
     font-size: 0.5rem;
     .number{
