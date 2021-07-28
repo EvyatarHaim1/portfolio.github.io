@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.48441044.chunk.css",
-    "main.js": "/portfolio.github.io/static/js/main.133a1b92.chunk.js",
-    "main.js.map": "/portfolio.github.io/static/js/main.133a1b92.chunk.js.map",
-    "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.ba89ef37.js",
-    "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.ba89ef37.js.map",
-    "static/js/2.7c3b27a4.chunk.js": "/portfolio.github.io/static/js/2.7c3b27a4.chunk.js",
-    "static/js/2.7c3b27a4.chunk.js.map": "/portfolio.github.io/static/js/2.7c3b27a4.chunk.js.map",
-    "static/js/3.1878a087.chunk.js": "/portfolio.github.io/static/js/3.1878a087.chunk.js",
-    "static/js/3.1878a087.chunk.js.map": "/portfolio.github.io/static/js/3.1878a087.chunk.js.map",
+    "main.js": "/portfolio.github.io/static/js/main.ed46b0d3.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.ed46b0d3.chunk.js.map",
+    "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.0149d2c7.js",
+    "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.0149d2c7.js.map",
+    "static/js/2.5836b83d.chunk.js": "/portfolio.github.io/static/js/2.5836b83d.chunk.js",
+    "static/js/2.5836b83d.chunk.js.map": "/portfolio.github.io/static/js/2.5836b83d.chunk.js.map",
+    "static/js/3.72f22974.chunk.js": "/portfolio.github.io/static/js/3.72f22974.chunk.js",
+    "static/js/3.72f22974.chunk.js.map": "/portfolio.github.io/static/js/3.72f22974.chunk.js.map",
     "index.html": "/portfolio.github.io/index.html",
     "static/css/main.48441044.chunk.css.map": "/portfolio.github.io/static/css/main.48441044.chunk.css.map",
-    "static/js/2.7c3b27a4.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.7c3b27a4.chunk.js.LICENSE.txt",
+    "static/js/2.5836b83d.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.5836b83d.chunk.js.LICENSE.txt",
     "static/media/Argon-Assault.b3d627e5.png": "/portfolio.github.io/static/media/Argon-Assault.b3d627e5.png",
     "static/media/Basketball.2d315dea.png": "/portfolio.github.io/static/media/Basketball.2d315dea.png",
     "static/media/COVID-19.c6e62dad.png": "/portfolio.github.io/static/media/COVID-19.c6e62dad.png",
@@ -39,9 +39,9 @@
     "static/media/wordpressEmptyproject.56827829.jpg": "/portfolio.github.io/static/media/wordpressEmptyproject.56827829.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba89ef37.js",
-    "static/js/2.7c3b27a4.chunk.js",
+    "static/js/runtime-main.0149d2c7.js",
+    "static/js/2.5836b83d.chunk.js",
     "static/css/main.48441044.chunk.css",
-    "static/js/main.133a1b92.chunk.js"
+    "static/js/main.ed46b0d3.chunk.js"
   ]
 }
