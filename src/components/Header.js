@@ -10,6 +10,7 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
+import SettingOptions from './SettingOptions';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,6 +39,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     marginLeft: theme.spacing(5),
     color: "white",
+    width: '100%',
   }
 }));
 
@@ -96,12 +98,15 @@ function Header() {
                 <MenuItem onClick={handleClose}>Contact</MenuItem>
               </Link>
             </Menu>
-            <Link to="app" smooth={true} duration={1000}
-              className="navLinks">
-              <Typography variant="h6" className={classes.title}>
-                My Portfolio
-              </Typography>
-            </Link>
+            <Title>
+              <Link to="app" smooth={true} duration={1000}
+                className="navLinks">
+                <Typography variant="h6" className={classes.title}>
+                  My Portfolio
+                </Typography>
+              </Link>
+            </Title>
+            <SettingOptions />
           </HeaderLeft>
           <HeaderRight>
             <Toolbar className={classes.menuButton}>
@@ -153,14 +158,19 @@ a{text-decoration: none;}
 
 const HeaderLeft = styled.div`
 display:flex;
-justify-content: center;
+justify-content: flex-start;
+width:33%;
 align-items: center;
 `
 
 const HeaderRight = styled.div`
 display:flex;
-justify-content: center;
+justify-content: flex-end;
 align-items: center;
 `
-
+const Title = styled.div`
+@media (max-width:1100px){
+  display:none;
+}
+`
 
