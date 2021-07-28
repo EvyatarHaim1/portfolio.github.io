@@ -25,11 +25,16 @@ import weatherApp from '../images/weatherapp-react-native.png';
 import signal from '../images/signal.png';
 import wordpress1 from '../images/wordpress1.png';
 import wordpressEmpty from '../images/wordpressEmptyproject.jpg';
+import { useSelector } from 'react-redux';
+import indigo from '@material-ui/core/colors/indigo';
 
 function Home() {
+
+      const darkmode = useSelector((state) => state.setting.darkmode);
+
       return (
-            <Div id="Projects">
-                  <h1>RECENT PROJECTS</h1>
+            <Div id="Projects" style={{ backgroundColor: darkmode ? '#424242' : '#E8E1DE' }}>
+                  <h1 style={{ color: darkmode ? 'white' : 'black' }}>RECENT PROJECTS</h1>
                   <Home_section>
                         <Card
                               src={wordpress1}
@@ -289,7 +294,6 @@ width:100%;
 justify-content: center;
 align-items: center;
 height: 100%;
-background-color: #E8E1DE;
 @media (max-width:481px){
       font-size:15px;
 }

@@ -1,10 +1,12 @@
 import React from 'react';
+import { useSelector } from 'react-redux'
 import styled from 'styled-components';
-import { Button } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import AppsIcon from '@material-ui/icons/Apps';
 
 function Card({ src, title, github, appUrl }) {
+
+    const darkmode = useSelector((state) => state.setting.darkmode);
 
     return (
         <Div>
@@ -13,13 +15,13 @@ function Card({ src, title, github, appUrl }) {
                     alt="projectImg"
                 />
                 <div className="card_info">
-                    <h2>{title}</h2>
+                    <h2 style={{ color: darkmode ? 'white' : 'black' }}>{title}</h2>
                     <div className="links">
                         <a href={github} target="_blank">
-                            <GitHubIcon className="github" />
+                            <GitHubIcon className="github" style={{ color: darkmode ? 'white' : '#24292E' }} />
                         </a>
-                        <a href={appUrl} target="_blank">
-                            <AppsIcon className="appUrl" />
+                        <a href={appUrl} target="_blank" >
+                            <AppsIcon className="appUrl" style={{ color: darkmode ? 'white' : '#24292E' }} />
                         </a>
                     </div>
                 </div>
@@ -87,7 +89,6 @@ img {
         justify-content: space-between;
         width: 100%;
         .appUrl, .github{
-            color: #24292E;
         }
     }
 }

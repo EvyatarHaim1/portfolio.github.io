@@ -20,8 +20,9 @@ export default function Switches() {
                 <WbSunnyIcon color="primary" />
                 <Switch
                     checked={darkmode}
-                    onChange={handleChangeDarkMode}
-                    color="secondary"
+                    onClick={handleChangeDarkMode}
+                    // onChange={handleChangeDarkMode}
+                    color="primary"
                     name="checkedDarkmode"
                     inputProps={{ 'aria-label': 'primary checkbox' }}
                 />
@@ -42,19 +43,6 @@ align-items:center;
     flex-direction:column;
     align-items:center;
     justify-content:flex-start;
-}
-`
-
-const UnitSwitch = styled.div`
-display: flex;
-justify-content:center;
-align-items:center;
-margin-left: 33%;
-@media (max-width:480px){
-    align-items:center;
-    justify-content:flex-start;
-    margin-left:0;
-    width:80%;
 }
 `
 const DarkMode = styled.div`

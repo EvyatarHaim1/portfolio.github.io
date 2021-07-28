@@ -1,15 +1,18 @@
 import React from 'react';
+import { useSelector } from 'react-redux'
 import styled from 'styled-components';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import { Link } from 'react-router-dom';
 
 function Info() {
+
+    const darkmode = useSelector((state) => state.setting.darkmode);
+
     return (
         <Container>
-            <Div>
+            <Div style={{ backgroundColor: darkmode ? '#212121' : '#A79344' }}>
                 <h1 className="h1">Full Stack Web Developer</h1>
                 <P1>............................................</P1>
                 <h4>React | React-Native | NodeJS| Express | MongoDB | MySQL | Firebase </h4>
@@ -23,19 +26,19 @@ function Info() {
                 </H4Mobile>
                 <SocialMedia>
                     <a href="https://www.linkedin.com/in/evyatar-haim/" target="_blank">
-                        <LinkedInIcon className="linkedin" />
+                        <LinkedInIcon className="linkedin" style={{ color: darkmode ? 'white' : '#24292E' }} />
                     </a>
 
                     <a href="https://github.com/EvyatarHaim1?tab=repositories" target="_blank">
-                        <GitHubIcon className="github" />
+                        <GitHubIcon className="github" style={{ color: darkmode ? 'white' : '#24292E' }} />
                     </a>
 
                     <a href="https://www.instagram.com/evyatarhaim1/" target="_blank">
-                        <InstagramIcon className="instagram" />
+                        <InstagramIcon className="instagram" style={{ color: darkmode ? 'white' : '#24292E' }} />
                     </a>
 
                     <a href="https://www.facebook.com/Evios" target="_blank">
-                        <FacebookIcon className="facebook" />
+                        <FacebookIcon className="facebook" style={{ color: darkmode ? 'white' : '#24292E' }} />
                     </a>
 
 
@@ -60,7 +63,6 @@ display: flex;
 flex-direction: column;
 width: 60%;
 height: 300px;
-background-color: #A79344;
 @media (max-width:900px){
 width: 60%;
 height: 200px;
@@ -114,7 +116,6 @@ margin-right: auto;
 margin-left: auto;
 width: 60%;
 .linkedin{
-    color: #24292E;
     font-size: 50px;
     :hover{
         color: #504846;
@@ -132,7 +133,6 @@ width: 60%;
     }
 }
 .github{
-    color: #24292E;
     font-size: 50px;
     :hover{
         color: #504846;
@@ -150,7 +150,6 @@ width: 60%;
     }
 }
 .instagram {
-    color: #24292E;
      font-size: 50px;
      :hover{
         color: #504846;
@@ -168,7 +167,6 @@ width: 60%;
     }
 }
 .facebook{
-    color: #24292E;
     font-size: 50px;
     :hover{
         color: #504846;

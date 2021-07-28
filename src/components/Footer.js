@@ -1,10 +1,14 @@
 import React from 'react';
+import { useSelector } from 'react-redux'
 import styled from 'styled-components';
 
 function Footer() {
+
+    const darkmode = useSelector((state) => state.setting.darkmode);
+
     return (
-        <Div>
-            <p>Copyright © Evyatar Haim 2020 </p>
+        <Div style={{ backgroundColor: darkmode ? '#212121' : '#A79344' }}>
+            <p style={{ color: darkmode && 'white' }}>Copyright © Evyatar Haim 2020 </p>
         </Div>
     )
 }
@@ -13,7 +17,6 @@ export default Footer;
 
 const Div = styled.div`
 padding: 20px;
-background-color: #A79344;
 height: 40px;
 bottom: 0;
 text-align: center;

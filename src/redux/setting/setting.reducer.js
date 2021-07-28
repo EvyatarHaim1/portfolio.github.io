@@ -1,7 +1,7 @@
 import { SWITCH_TO_DARKMODE } from "./setting.action";
 
 const initialState = {
-    darkmode: true,
+    darkmode: false,
 }
 
 export default (state = initialState, action) => {

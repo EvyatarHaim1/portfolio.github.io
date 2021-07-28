@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useSelector } from 'react-redux'
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -12,38 +13,43 @@ import styled from 'styled-components';
 import { Link } from 'react-scroll';
 import SettingOptions from './SettingOptions';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-    maxWidth: '100%',
-    flex: 1
-  },
-  appbar: {
-    display: 'flex',
-    flex: 1,
-    backgroundColor: "#A79344",
-  },
-  toolar: {
-    display: 'flex',
-    justifyContent: "space-between",
-    alignItems: "center",
-  },
-  menuButton: {
-    marginLeft: theme.spacing(78),
-
-  },
-  btn: {
-    color: "white",
-    marginLeft: "45px"
-  },
-  title: {
-    marginLeft: theme.spacing(5),
-    color: "white",
-    width: '100%',
-  }
-}));
 
 function Header() {
+
+  const darkmode = useSelector((state) => state.setting.darkmode);
+
+  const useStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1,
+      maxWidth: '100%',
+      flex: 1
+    },
+    appbar: {
+      display: 'flex',
+      flex: 1,
+      backgroundColor: !darkmode && "#A79344",
+    },
+    toolar: {
+      display: 'flex',
+      justifyContent: "space-between",
+      alignItems: "center",
+    },
+    menuButton: {
+      marginLeft: theme.spacing(78),
+    },
+    burgerMenu: {
+      color: "white"
+    },
+    btn: {
+      color: "white",
+      marginLeft: "45px"
+    },
+    title: {
+      marginLeft: theme.spacing(5),
+      color: "white",
+      width: '100%',
+    }
+  }));
 
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = useState(null);
@@ -58,10 +64,11 @@ function Header() {
 
   return (
     <Div className={classes.root} >
-      <AppBar position="static" className={classes.appbar}>
+      <AppBar position="static" color="default" className={classes.appbar}>
         <Toolbar className={classes.toolar}>
           <HeaderLeft>
             <IconButton
+              className={classes.burgerMenu}
               edge="start"
               color="inherit"
               aria-label="menu"
