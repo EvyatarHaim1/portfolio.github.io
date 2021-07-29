@@ -25,6 +25,7 @@ import weatherApp from '../images/weatherapp-react-native.png';
 import signal from '../images/signal.png';
 import wordpress1 from '../images/wordpress1.png';
 import wordpressEmpty from '../images/wordpressEmptyproject.jpg';
+import weatherAppReactRedux from '../images/weatherAppReactRedux.png';
 import { useSelector } from 'react-redux';
 import indigo from '@material-ui/core/colors/indigo';
 import Filter from './Filter';
@@ -52,11 +53,11 @@ function Home() {
                         />
 
                         <Card
-                              show={wordpress}
-                              src={wordpressEmpty}
-                              title="Wordpress project - soon"
-                              //     github="https://github.com/EvyatarHaim1/Amazon"
-                              appUrl=""
+                              show={reactjs}
+                              src={weatherAppReactRedux}
+                              title="Weather-app (React & Redux)"
+                              github="https://github.com/EvyatarHaim1/Weather-App-React-Redux-Firebase-"
+                              appUrl="https://evyatar-haim-weather-app.web.app/"
                               className="card"
                         />
 
