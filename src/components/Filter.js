@@ -70,18 +70,19 @@ export default function Filter() {
 }
 
 const Div = styled.div`
-max-width: 100%;
+max-width: 80%;
+display:flex;
  justify-content: center; 
 align-items: center; 
 margin-left: auto;
 margin-right: auto;
 `
 const Img = styled.img`
-  width:35%;
+  width:20%;
   object-fit:contain;
 `
 const Imgwordpress = styled.img`
-  width:20%;
+  width:12%;
   margin-right:7%;
   object-fit:contain;
 `
@@ -89,7 +90,7 @@ const Row = styled.div`
 display: flex;
 flex-direction:row;
 align-items: center;
-width:33%;
+width:15%;
 justify-content:space-between;
 margin-left: auto;
 margin-right: auto;
