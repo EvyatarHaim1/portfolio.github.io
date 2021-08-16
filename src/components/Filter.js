@@ -76,7 +76,7 @@ display:flex;
 align-items: center; 
 margin-left: auto;
 margin-right: auto;
-@media(max-width:481px){
+@media(max-width:1100px){
     flex-direction: column;
 }
 `
@@ -93,7 +93,7 @@ const Row = styled.div`
 display: flex;
 flex-direction:row;
 align-items: center;
-width:15%;
+width:20%;
 justify-content:space-between;
 margin-left: auto;
 margin-right: auto;
