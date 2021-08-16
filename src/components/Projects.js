@@ -42,35 +42,6 @@ function Home() {
             <Div id="Projects" style={{ backgroundColor: darkmode ? '#424242' : '#E8E1DE' }}>
                   <h1 style={{ color: darkmode ? 'white' : 'black' }}>RECENT PROJECTS</h1>
                   <Filter />
-                  <Home_section>
-                        <Card
-                              show={wordpress}
-                              src={wordpress1}
-                              title="Wordpress Ecommerce shop"
-                              //     github="https://github.com/EvyatarHaim1/Airbnb-React"
-                              appUrl=" https://conceptualdesigns.online/"
-                              className="card"
-                        />
-
-                        <Card
-                              show={reactjs}
-                              src={weatherAppReactRedux}
-                              title="Weather-app (React & Redux)"
-                              github="https://github.com/EvyatarHaim1/Weather-App-React-Redux-Firebase-"
-                              appUrl="https://evyatar-haim-weather-app.web.app/"
-                              className="card"
-                        />
-
-                        <Card
-                              show={wordpress}
-                              src={wordpressEmpty}
-                              title="Wordpress project - soon"
-                              //     github="https://github.com/EvyatarHaim1/Amazon"
-                              appUrl=""
-                              className="card"
-                        />
-
-                  </Home_section>
 
                   <Home_section>
                         <Card
@@ -145,11 +116,11 @@ function Home() {
                         />
 
                         <Card
-                              show={unity}
-                              src='https://github.com/EvyatarHaim1/Guessing_Languages_Words/raw/master/Assets/view.png?raw=true'
-                              title="Guessing Languages Words - Unity 2D"
-                              github="https://github.com/EvyatarHaim1/Guessing_Languages_Words"
-                              appUrl="https://sharemygame.com/@EvyatarHaim/guessing-languages-words"
+                              show={reactjs}
+                              src={FB_Messenger}
+                              title="Facebook Messenger"
+                              github="https://github.com/EvyatarHaim1/Facebook-Messenger-React"
+                              appUrl="https://facebook-messenger-evyatar.web.app/"
                               className="card"
                         />
 
@@ -168,10 +139,10 @@ function Home() {
 
                         <Card
                               show={reactjs}
-                              src={FB_Messenger}
-                              title="Facebook Messenger"
-                              github="https://github.com/EvyatarHaim1/Facebook-Messenger-React"
-                              appUrl="https://facebook-messenger-evyatar.web.app/"
+                              src={Linkedin}
+                              title="Linkedin"
+                              github="https://github.com/EvyatarHaim1/Linkedin-React"
+                              appUrl="https://linkedin-evyatar.web.app/"
                               className="card"
                         />
 
@@ -246,11 +217,11 @@ function Home() {
                         />
 
                         <Card
-                              show={reactjs}
-                              src={Linkedin}
-                              title="Linkedin"
-                              github="https://github.com/EvyatarHaim1/Linkedin-React"
-                              appUrl="https://linkedin-evyatar.web.app/"
+                              show={unity}
+                              src='https://github.com/EvyatarHaim1/Guessing_Languages_Words/raw/master/Assets/view.png?raw=true'
+                              title="Guessing Languages Words - Unity 2D"
+                              github="https://github.com/EvyatarHaim1/Guessing_Languages_Words"
+                              appUrl="https://sharemygame.com/@EvyatarHaim/guessing-languages-words"
                               className="card"
                         />
 
@@ -313,6 +284,35 @@ function Home() {
                               title="Weather App- React-Native"
                               github="https://github.com/EvyatarHaim1/Weather-App-React-Native-Expo-"
                               appUrl="https://weather-app-evyatar-haim.web.app/"
+                              className="card"
+                        />
+
+                  </Home_section>
+                  <Home_section>
+                        <Card
+                              show={wordpress}
+                              src={wordpress1}
+                              title="Wordpress Ecommerce shop"
+                              //     github="https://github.com/EvyatarHaim1/Airbnb-React"
+                              appUrl=" https://conceptualdesigns.online/"
+                              className="card"
+                        />
+
+                        <Card
+                              show={reactjs}
+                              src={weatherAppReactRedux}
+                              title="Weather-app (React & Redux)"
+                              github="https://github.com/EvyatarHaim1/Weather-App-React-Redux-Firebase-"
+                              appUrl="https://evyatar-haim-weather-app.web.app/"
+                              className="card"
+                        />
+
+                        <Card
+                              show={wordpress}
+                              src={wordpressEmpty}
+                              title="Wordpress project - soon"
+                              //     github="https://github.com/EvyatarHaim1/Amazon"
+                              appUrl=""
                               className="card"
                         />
 
