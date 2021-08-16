@@ -76,6 +76,9 @@ display:flex;
 align-items: center; 
 margin-left: auto;
 margin-right: auto;
+@media(max-width:481px){
+    flex-direction: column;
+}
 `
 const Img = styled.img`
   width:20%;
@@ -95,4 +98,7 @@ justify-content:space-between;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 0.5%;
+@media(max-width:481px){
+    width:70%;
+}
 `
