@@ -190,6 +190,15 @@ width: 60%;
 .fiverrDiv{
     display:flex ;
     align-items: center;
+    @media(max-width:550px){
+        margin-top: -3px;
+    }
+    @media(max-width:540px){
+        margin-top: -3px;
+    }
+    @media(max-width:320px){
+        margin-top: -4px;
+    }
 }
 .fiverr{
     display:flex ;
