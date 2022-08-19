@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.48441044.chunk.css",
-    "main.js": "/portfolio.github.io/static/js/main.6db4fa71.chunk.js",
-    "main.js.map": "/portfolio.github.io/static/js/main.6db4fa71.chunk.js.map",
+    "main.js": "/portfolio.github.io/static/js/main.30079772.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.30079772.chunk.js.map",
     "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.5662869e.js",
     "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.5662869e.js.map",
-    "static/js/2.cbf228ea.chunk.js": "/portfolio.github.io/static/js/2.cbf228ea.chunk.js",
-    "static/js/2.cbf228ea.chunk.js.map": "/portfolio.github.io/static/js/2.cbf228ea.chunk.js.map",
+    "static/js/2.1390545f.chunk.js": "/portfolio.github.io/static/js/2.1390545f.chunk.js",
+    "static/js/2.1390545f.chunk.js.map": "/portfolio.github.io/static/js/2.1390545f.chunk.js.map",
     "static/js/3.9b83044c.chunk.js": "/portfolio.github.io/static/js/3.9b83044c.chunk.js",
     "static/js/3.9b83044c.chunk.js.map": "/portfolio.github.io/static/js/3.9b83044c.chunk.js.map",
     "index.html": "/portfolio.github.io/index.html",
     "static/css/main.48441044.chunk.css.map": "/portfolio.github.io/static/css/main.48441044.chunk.css.map",
-    "static/js/2.cbf228ea.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.cbf228ea.chunk.js.LICENSE.txt",
+    "static/js/2.1390545f.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.1390545f.chunk.js.LICENSE.txt",
     "static/media/Argon-Assault.b3d627e5.png": "/portfolio.github.io/static/media/Argon-Assault.b3d627e5.png",
     "static/media/Basketball.2d315dea.png": "/portfolio.github.io/static/media/Basketball.2d315dea.png",
     "static/media/COVID-19.c6e62dad.png": "/portfolio.github.io/static/media/COVID-19.c6e62dad.png",
@@ -23,6 +23,7 @@
     "static/media/Youtube.32f31c0a.png": "/portfolio.github.io/static/media/Youtube.32f31c0a.png",
     "static/media/airbnb.f25e8a93.png": "/portfolio.github.io/static/media/airbnb.f25e8a93.png",
     "static/media/amazon.83b4dc1a.png": "/portfolio.github.io/static/media/amazon.83b4dc1a.png",
+    "static/media/fiverr.30d79505.png": "/portfolio.github.io/static/media/fiverr.30d79505.png",
     "static/media/instagram.c5c2499d.png": "/portfolio.github.io/static/media/instagram.c5c2499d.png",
     "static/media/linkedin.0fa5a9b7.png": "/portfolio.github.io/static/media/linkedin.0fa5a9b7.png",
     "static/media/myImage.e759e0af.jpg": "/portfolio.github.io/static/media/myImage.e759e0af.jpg",
@@ -48,8 +49,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5662869e.js",
-    "static/js/2.cbf228ea.chunk.js",
+    "static/js/2.1390545f.chunk.js",
     "static/css/main.48441044.chunk.css",
-    "static/js/main.6db4fa71.chunk.js"
+    "static/js/main.30079772.chunk.js"
   ]
 }
