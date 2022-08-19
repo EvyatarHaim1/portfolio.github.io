@@ -40,6 +40,10 @@ h1{padding-bottom: 80px;
 }
 }
 h3{width: 60%; 
+    @media (max-width:550px){
+      width:90%;
+      text-align:left;
+    }
     @media (max-width:250px){
     font-size:10px;
 }

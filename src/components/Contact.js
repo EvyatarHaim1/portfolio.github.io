@@ -9,7 +9,7 @@ function Contact() {
     const darkmode = useSelector((state) => state.setting.darkmode);
 
     return (
-        <Div id="Contact" style={{ backgroundColor: darkmode ? '#414141' : '#E8E1DE' }}>
+        <Div id="Contact" style={{ backgroundColor: darkmode ? '#414141' : '#E8E1DE', paddingBottom: "20px" }}>
             <h1>Contact</h1>
             <Icons>
                 <SettingsCellIcon className="phone" style={{ color: darkmode ? 'white' : '#24292E' }} />
@@ -66,10 +66,12 @@ margin-top: 2%;
     .number{
         margin-right: 60px;
         margin-top: -20px;
+        font-size:20px;
     }
     .address{
         margin-right: 150px;
         margin-top: 5px;
+        font-size:20px;
     }
 }
 .number{
