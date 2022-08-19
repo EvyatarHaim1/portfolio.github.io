@@ -91,7 +91,7 @@ function Header() {
                 <MenuItem className="BurgerIcon"
                   onClick={handleClose}>My Portfolio</MenuItem>
               </Link>
-              <a href='https://firebasestorage.googleapis.com/v0/b/certificates-a49e7.appspot.com/o/cv%2FEvyatar%20Haim.pdf?alt=media&token=7ab18d07-b15d-41df-8e8c-98157af0e60b'
+              <a href='https://firebasestorage.googleapis.com/v0/b/certificates-a49e7.appspot.com/o/cv%2FEvyatar_Haim_CV.pdf?alt=media&token=aa4f0f5d-fb0e-427c-87fb-9a5cc926dc70'
                 target='_blank'>
                 <MenuItem onClick={handleClose}>CV</MenuItem>
               </a>
@@ -117,7 +117,7 @@ function Header() {
           </HeaderLeft>
           <HeaderRight>
             <Toolbar className={classes.menuButton}>
-              <a href='https://firebasestorage.googleapis.com/v0/b/certificates-a49e7.appspot.com/o/cv%2FEvyatar%20Haim.pdf?alt=media&token=7ab18d07-b15d-41df-8e8c-98157af0e60b'
+              <a href='https://firebasestorage.googleapis.com/v0/b/certificates-a49e7.appspot.com/o/cv%2FEvyatar_Haim_CV.pdf?alt=media&token=aa4f0f5d-fb0e-427c-87fb-9a5cc926dc70'
                 target='_blank'
                 className="navLinks">
                 <Button color="inherit" className={classes.btn}>CV</Button>

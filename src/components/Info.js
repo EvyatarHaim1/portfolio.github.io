@@ -4,7 +4,9 @@ import styled from 'styled-components';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import fiverrDark from '../images/techTypes/FiverrDark.png';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import fiverrLight from '../images/techTypes/FiverrLight.png';
 
 function Info() {
 
@@ -40,7 +42,9 @@ function Info() {
                     <a href="https://www.facebook.com/Evios" target="_blank">
                         <FacebookIcon className="facebook" style={{ color: darkmode ? 'white' : '#24292E' }} />
                     </a>
-
+                    <a href="https://www.fiverr.com/appcode_js" target="_blank" className="fiverrDiv">
+                        <img className="fiverr" src={darkmode ? fiverrDark : fiverrLight} alt="fiverr" />
+                    </a>
 
                 </SocialMedia>
             </Div>
@@ -183,6 +187,29 @@ width: 60%;
     font-size: 20px;
     }
 }
+.fiverrDiv{
+    display:flex ;
+    align-items: center;
+}
+.fiverr{
+    display:flex ;
+    width: 39px;
+    align-items: center;
+    :hover{
+        transform: scale(1.15);
+        cursor:pointer;
+    }
+    @media (max-width:450px){
+    width: 30px;
+    }
+    @media (max-width:375px){
+    width: 25px;
+    }
+    @media (max-width:305px){
+    width: 19px;
+    }
+}
+
 `
 const P1 = styled.p`
     color: white;
