@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.48441044.chunk.css",
-    "main.js": "/portfolio.github.io/static/js/main.730d6f16.chunk.js",
-    "main.js.map": "/portfolio.github.io/static/js/main.730d6f16.chunk.js.map",
+    "main.js": "/portfolio.github.io/static/js/main.e13070cd.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.e13070cd.chunk.js.map",
     "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.5662869e.js",
     "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.5662869e.js.map",
     "static/js/2.1390545f.chunk.js": "/portfolio.github.io/static/js/2.1390545f.chunk.js",
@@ -40,6 +40,12 @@
     "static/media/todoList.4d2d2f18.png": "/portfolio.github.io/static/media/todoList.4d2d2f18.png",
     "static/media/twitter.2080f351.png": "/portfolio.github.io/static/media/twitter.2080f351.png",
     "static/media/unity.33eab7b3.png": "/portfolio.github.io/static/media/unity.33eab7b3.png",
+    "static/media/v1.84554d8d.png": "/portfolio.github.io/static/media/v1.84554d8d.png",
+    "static/media/v2.e1ee920b.png": "/portfolio.github.io/static/media/v2.e1ee920b.png",
+    "static/media/v3.502b2bff.png": "/portfolio.github.io/static/media/v3.502b2bff.png",
+    "static/media/v4.7b9b9b70.png": "/portfolio.github.io/static/media/v4.7b9b9b70.png",
+    "static/media/v5.65e4eaa6.png": "/portfolio.github.io/static/media/v5.65e4eaa6.png",
+    "static/media/v6.8689c66a.png": "/portfolio.github.io/static/media/v6.8689c66a.png",
     "static/media/weatherAppReactRedux.69aa1866.png": "/portfolio.github.io/static/media/weatherAppReactRedux.69aa1866.png",
     "static/media/weatherapp-react-native.ebfd1601.png": "/portfolio.github.io/static/media/weatherapp-react-native.ebfd1601.png",
     "static/media/whatsapp.79db69db.png": "/portfolio.github.io/static/media/whatsapp.79db69db.png",
@@ -51,6 +57,6 @@
     "static/js/runtime-main.5662869e.js",
     "static/js/2.1390545f.chunk.js",
     "static/css/main.48441044.chunk.css",
-    "static/js/main.730d6f16.chunk.js"
+    "static/js/main.e13070cd.chunk.js"
   ]
 }
