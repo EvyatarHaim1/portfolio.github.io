@@ -1,32 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.4105c01e.css",
-    "main.js": "/portfolio.github.io/static/js/main.98fb9200.js",
+    "main.js": "/portfolio.github.io/static/js/main.72b1ec2f.js",
     "static/js/377.fca698db.chunk.js": "/portfolio.github.io/static/js/377.fca698db.chunk.js",
     "static/media/night.gif": "/portfolio.github.io/static/media/night.aa9a8b41a2301c4aafbd.gif",
     "static/media/netflix.png": "/portfolio.github.io/static/media/netflix.ced5bb7f54c150d7dcb8.png",
     "static/media/airbnb.png": "/portfolio.github.io/static/media/airbnb.f25e8a93a7f95de0034d.png",
     "static/media/amazon.png": "/portfolio.github.io/static/media/amazon.83b4dc1a7b552555f4b4.png",
-    "static/media/v6.png": "/portfolio.github.io/static/media/v6.8689c66adc72861f54b3.png",
     "static/media/Youtube.png": "/portfolio.github.io/static/media/Youtube.32f31c0aa3a0a0b7ffdf.png",
     "static/media/sky.gif": "/portfolio.github.io/static/media/sky.42eaafc563be198c6c25.gif",
     "static/media/Argon-Assault.png": "/portfolio.github.io/static/media/Argon-Assault.b3d627e538f4eb42948d.png",
     "static/media/RocketShip.png": "/portfolio.github.io/static/media/RocketShip.28091e849ef5c3e8abf7.png",
-    "static/media/v2.png": "/portfolio.github.io/static/media/v2.e1ee920b8fe4d4e07b65.png",
-    "static/media/v1.png": "/portfolio.github.io/static/media/v1.84554d8d092e6b2b6e3c.png",
     "static/media/instagram.png": "/portfolio.github.io/static/media/instagram.c5c2499d0092b30ff5c5.png",
-    "static/media/v4.png": "/portfolio.github.io/static/media/v4.7b9b9b708aee06a4dbf2.png",
     "static/media/twitter.png": "/portfolio.github.io/static/media/twitter.2080f3518b715f9ef8ea.png",
     "static/media/wordpress1.png": "/portfolio.github.io/static/media/wordpress1.ed72bfb3a4d17cf80df8.png",
     "static/media/spotify.png": "/portfolio.github.io/static/media/spotify.a67774336de05840ee69.png",
-    "static/media/v5.png": "/portfolio.github.io/static/media/v5.65e4eaa6d9ce8ceb44a4.png",
     "static/media/weatherapp-react-native.png": "/portfolio.github.io/static/media/weatherapp-react-native.ebfd16013ad734e9f568.png",
     "static/media/COVID-19.png": "/portfolio.github.io/static/media/COVID-19.c6e62dad29611c5ba0c1.png",
     "static/media/tinder.png": "/portfolio.github.io/static/media/tinder.03e62448251f9bb5b932.png",
     "static/media/whatsapp.png": "/portfolio.github.io/static/media/whatsapp.79db69dba7f0943586d2.png",
     "static/media/snapshot.png": "/portfolio.github.io/static/media/snapshot.47389c29a6befedf4f31.png",
     "static/media/linkedin.png": "/portfolio.github.io/static/media/linkedin.0fa5a9b750a4bf1b41ff.png",
-    "static/media/v3.png": "/portfolio.github.io/static/media/v3.502b2bfff8660486ee3d.png",
     "static/media/myImage.jpg": "/portfolio.github.io/static/media/myImage.e759e0af252136910215.jpg",
     "static/media/Basketball.png": "/portfolio.github.io/static/media/Basketball.2d315dea2ce1b1279c79.png",
     "static/media/slack.png": "/portfolio.github.io/static/media/slack.2f7c56c6331f498b5b32.png",
@@ -45,11 +39,11 @@
     "static/media/FiverrLight.png": "/portfolio.github.io/static/media/FiverrLight.9dda16eaa81163977928.png",
     "index.html": "/portfolio.github.io/index.html",
     "main.4105c01e.css.map": "/portfolio.github.io/static/css/main.4105c01e.css.map",
-    "main.98fb9200.js.map": "/portfolio.github.io/static/js/main.98fb9200.js.map",
+    "main.72b1ec2f.js.map": "/portfolio.github.io/static/js/main.72b1ec2f.js.map",
     "377.fca698db.chunk.js.map": "/portfolio.github.io/static/js/377.fca698db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4105c01e.css",
-    "static/js/main.98fb9200.js"
+    "static/js/main.72b1ec2f.js"
   ]
 }
