@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.4105c01e.css",
-    "main.js": "/portfolio.github.io/static/js/main.c2ee024b.js",
+    "main.js": "/portfolio.github.io/static/js/main.3cb77c6b.js",
     "static/js/377.fca698db.chunk.js": "/portfolio.github.io/static/js/377.fca698db.chunk.js",
     "static/media/night.gif": "/portfolio.github.io/static/media/night.aa9a8b41a2301c4aafbd.gif",
     "static/media/netflix.png": "/portfolio.github.io/static/media/netflix.ced5bb7f54c150d7dcb8.png",
@@ -39,11 +39,11 @@
     "static/media/FiverrLight.png": "/portfolio.github.io/static/media/FiverrLight.9dda16eaa81163977928.png",
     "index.html": "/portfolio.github.io/index.html",
     "main.4105c01e.css.map": "/portfolio.github.io/static/css/main.4105c01e.css.map",
-    "main.c2ee024b.js.map": "/portfolio.github.io/static/js/main.c2ee024b.js.map",
+    "main.3cb77c6b.js.map": "/portfolio.github.io/static/js/main.3cb77c6b.js.map",
     "377.fca698db.chunk.js.map": "/portfolio.github.io/static/js/377.fca698db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4105c01e.css",
-    "static/js/main.c2ee024b.js"
+    "static/js/main.3cb77c6b.js"
   ]
 }
