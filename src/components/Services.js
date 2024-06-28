@@ -2,12 +2,14 @@ import React from 'react'
 import styled from 'styled-components';
 import { useSelector } from 'react-redux'
 import fiverr from '../images/techTypes/fiverr.png';
+import darkBG from '../images/gifs/darkBG.gif';
+import lightBG from '../images/gifs/lightBG.gif'
 
 const Services = () => {
     const darkmode = useSelector((state) => state.setting.darkmode);
     return (
         <Div darkmode={darkmode} >
-            <Title>Services</Title>
+            <Title>My Freelance Services</Title>
             <Details>
                 👨‍💻 Responsive design for Web applications -React.js, Next.js, Vue.js, Nuxt.js. <br />
                 📲 React Native & Expo - Mobile development <br />
@@ -21,7 +23,7 @@ const Services = () => {
             </Details>
             <div>
                 <FiverrLink>Checkout my Fiverr profile</FiverrLink>
-                <a href="https://www.fiverr.com/appcode_js" target='_blank'>
+                <a href="https://www.fiverr.com/evyatarhaim18" target='_blank' rel="noreferrer">
                     <img width="150" height="150" src={fiverr} alt="logo" />
                 </a>
             </div>
@@ -36,9 +38,9 @@ padding: 60px;
 color: white;
 background-size: cover;
 background-repeat: no-repeat;
-background: linear-gradient(rgba(25,25,25), rgba(255,255,255,.2)), url('https://firebasestorage.googleapis.com/v0/b/certificates-a49e7.appspot.com/o/gifs%2FlightBG.gif?alt=media&token=e4abc34a-56c0-43dd-8751-a8a8fef027e1');
+background: linear-gradient(rgba(25,25,25), rgba(255,255,255,.2)), url(${darkBG});
 ${({ darkmode }) => darkmode && `
-background: url('https://firebasestorage.googleapis.com/v0/b/certificates-a49e7.appspot.com/o/gifs%2FdarkBG.gif?alt=media&token=ae1544f1-95f5-4c71-970f-7e26fdf9e08e')
+background: url(${lightBG})
 `};
 @media (max-width:500px){
     padding: 10px;

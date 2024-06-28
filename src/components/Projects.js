@@ -40,7 +40,7 @@ function Home() {
 
       return (
             <Div id="Projects" style={{ backgroundColor: darkmode ? '#424242' : '#E8E1DE' }}>
-                  <h1 style={{ color: darkmode ? 'white' : 'black' }}>RECENT PROJECTS</h1>
+                  <h1 style={{ color: darkmode ? 'white' : 'black' }}>OTHER PROJECTS</h1>
                   <Filter />
 
                   <Home_section>

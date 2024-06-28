@@ -12,11 +12,15 @@ import MenuItem from '@material-ui/core/MenuItem';
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
 import SettingOptions from './SettingOptions';
+import { useTranslation } from 'react-i18next';
+import SwitchLang from './SwitchLang';
 
 
-function Header() {
+
+function Header({ onChangeLang }) {
 
   const darkmode = useSelector((state) => state.setting.darkmode);
+  const { t } = useTranslation();
 
   const useStyles = makeStyles((theme) => ({
     root: {
@@ -89,50 +93,51 @@ function Header() {
 
               <Link to="app" smooth={true} duration={1000}>
                 <MenuItem className="BurgerIcon"
-                  onClick={handleClose}>My Portfolio</MenuItem>
+                  onClick={handleClose}>{t("header.socialProfiles")}</MenuItem>
               </Link>
-              <a href='https://firebasestorage.googleapis.com/v0/b/certificates-a49e7.appspot.com/o/cv%2FEvyatar_Haim_CV.pdf?alt=media&token=aa4f0f5d-fb0e-427c-87fb-9a5cc926dc70'
-                target='_blank'>
-                <MenuItem onClick={handleClose}>CV</MenuItem>
+              <a href='https://firebasestorage.googleapis.com/v0/b/certificates-a49e7.appspot.com/o/EvyatarHaimCV_2023.pdf?alt=media&token=93a0060f-97e3-43ba-8425-984de65ca38e'
+                target='_blank' rel="noreferrer">
+                <MenuItem onClick={handleClose}>{t("header.cv")}</MenuItem>
               </a>
               <Link to="Projects" smooth={true} duration={1000}>
-                <MenuItem onClick={handleClose}>Projects</MenuItem>
+                <MenuItem onClick={handleClose}>{t("header.projects")}</MenuItem>
               </Link>
               <Link to="AboutMe" smooth={true} duration={1000}>
-                <MenuItem onClick={handleClose}>About Me</MenuItem>
+                <MenuItem onClick={handleClose}>{t("header.aboutMe")}</MenuItem>
               </Link>
               <Link to="Contact" smooth={true} duration={1000}>
-                <MenuItem onClick={handleClose}>Contact</MenuItem>
+                <MenuItem onClick={handleClose}>{t("header.contact")}</MenuItem>
               </Link>
             </Menu>
             <Title>
               <Link to="app" smooth={true} duration={1000}
                 className="navLinks">
                 <Typography variant="h6" className={classes.title}>
-                  My Portfolio
+                  {t("header.profile")}
                 </Typography>
               </Link>
             </Title>
             <SettingOptions />
           </HeaderLeft>
+          <SwitchLang onChangeLang={onChangeLang} />
           <HeaderRight>
             <Toolbar className={classes.menuButton}>
-              <a href='https://firebasestorage.googleapis.com/v0/b/certificates-a49e7.appspot.com/o/cv%2FEvyatar_Haim_CV.pdf?alt=media&token=aa4f0f5d-fb0e-427c-87fb-9a5cc926dc70'
-                target='_blank'
+              <a href='https://firebasestorage.googleapis.com/v0/b/certificates-a49e7.appspot.com/o/EvyatarHaimCV_2023.pdf?alt=media&token=93a0060f-97e3-43ba-8425-984de65ca38e'
+                target='_blank' rel="noreferrer"
                 className="navLinks">
-                <Button color="inherit" className={classes.btn}>CV</Button>
+                <Button color="inherit" className={classes.btn}>{t("header.cv")}</Button>
               </a>
               <Link to="Projects" smooth={true} duration={1000}
                 className="navLinks">
-                <Button color="inherit" className={classes.btn}>Projects</Button>
+                <Button color="inherit" className={classes.btn}>{t("header.projects")}</Button>
               </Link>
               <Link to="AboutMe" smooth={true} duration={1000}
                 className="navLinks">
-                <Button color="inherit" className={classes.btn}>About Me</Button>
+                <Button color="inherit" className={classes.btn}>{t("header.aboutMe")}</Button>
               </Link>
               <Link to="Contact" smooth={true} duration={1000}
                 className="navLinks">
-                <Button color="inherit" className={classes.btn}>Contact</Button>
+                <Button color="inherit" className={classes.btn}>{t("header.contact")}</Button>
               </Link>
             </Toolbar>
           </HeaderRight>

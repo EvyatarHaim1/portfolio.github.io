@@ -1,14 +1,16 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { useSelector } from 'react-redux'
 import styled from 'styled-components';
 
 function Footer() {
 
     const darkmode = useSelector((state) => state.setting.darkmode);
+    const { t } = useTranslation();
 
     return (
         <Div style={{ backgroundColor: darkmode ? '#212121' : '#A79344' }}>
-            <p style={{ color: darkmode && 'white' }}>Copyright © Evyatar Haim 2020 </p>
+            <p style={{ color: darkmode && 'white' }}>{t("footer")}</p>
         </Div>
     )
 }

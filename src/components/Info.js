@@ -15,7 +15,7 @@ function Info() {
     return (
         <Container>
             <Div style={{ backgroundColor: darkmode ? '#212121' : '#A79344' }}>
-                <h1 className="h1">Full Stack Web Developer</h1>
+                <h1 className="h1">Full Stack Developer</h1>
                 <P1>............................................</P1>
                 <h4>React | React-Native | NodeJS| Express | MongoDB | MySQL | Firebase </h4>
                 <H4Mobile>
@@ -27,22 +27,22 @@ function Info() {
                     </p>
                 </H4Mobile>
                 <SocialMedia>
-                    <a href="https://www.linkedin.com/in/evyatar-haim/" target="_blank">
+                    <a href="https://www.linkedin.com/in/evyatar-haim/" target="_blank" rel="noreferrer">
                         <LinkedInIcon className="linkedin" style={{ color: darkmode ? 'white' : '#24292E' }} />
                     </a>
 
-                    <a href="https://github.com/EvyatarHaim1?tab=repositories" target="_blank">
+                    <a href="https://github.com/EvyatarHaim1?tab=repositories" target="_blank" rel="noreferrer">
                         <GitHubIcon className="github" style={{ color: darkmode ? 'white' : '#24292E' }} />
                     </a>
 
-                    <a href="https://www.instagram.com/evyatarhaim1/" target="_blank">
+                    <a href="https://www.instagram.com/evyatarhaim1/" target="_blank" rel="noreferrer">
                         <InstagramIcon className="instagram" style={{ color: darkmode ? 'white' : '#24292E' }} />
                     </a>
 
-                    <a href="https://www.facebook.com/Evios" target="_blank">
+                    <a href="https://www.facebook.com/Evios" target="_blank" rel="noreferrer">
                         <FacebookIcon className="facebook" style={{ color: darkmode ? 'white' : '#24292E' }} />
                     </a>
-                    <a href="https://www.fiverr.com/appcode_js" target="_blank" className="fiverrDiv">
+                    <a href="https://www.fiverr.com/evyatarhaim18" target="_blank" className="fiverrDiv" rel="noreferrer">
                         <img className="fiverr" src={darkmode ? fiverrDark : fiverrLight} alt="fiverr" />
                     </a>
 

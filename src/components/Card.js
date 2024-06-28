@@ -10,17 +10,17 @@ function Card({ src, title, github, appUrl, show }) {
 
     return (
         <Div style={{ display: show ? 'block' : 'none' }}>
-            <a href={appUrl} target="_blank">
+            <a href={appUrl} target="_blank" rel="noreferrer">
                 <img src={src}
                     alt="projectImg"
                 />
                 <div className="card_info">
                     <h2 style={{ color: darkmode ? 'white' : 'black' }}>{title}</h2>
                     <div className="links">
-                        {github && <a href={github} target="_blank">
+                        {github && <a href={github} target="_blank" rel="noreferrer">
                             <GitHubIcon className="github" style={{ color: darkmode ? 'white' : '#24292E' }} />
                         </a>}
-                        {appUrl && <a href={appUrl} target="_blank" >
+                        {appUrl && <a href={appUrl} target="_blank" rel="noreferrer">
                             <AppsIcon className="appUrl" style={{ color: darkmode ? 'white' : '#24292E' }} />
                         </a>}
                     </div>
